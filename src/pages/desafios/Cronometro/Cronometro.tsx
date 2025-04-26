@@ -6,7 +6,7 @@ function Home() {
   const [seconds, setSeconds] = useState<number>(0);
   const [hours, setHours] = useState<number>(0);
 
-  const intervalRef = useRef<number | null>(null);
+  const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   function handleStart() {
     if (intervalRef.current) return;
@@ -29,7 +29,6 @@ function Home() {
       );
     }, 1000);
   }
-
   function handleStop() {
     clearInterval(intervalRef.current!);
     intervalRef.current = null;
