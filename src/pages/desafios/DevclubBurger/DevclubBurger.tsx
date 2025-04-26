@@ -7,16 +7,17 @@ import { useState } from 'react';
 
 const burgerList = [
 
-  { name: 'X-Salada', price: 30, vegan: false, src: './src/assets/devburger/xsalada.jpeg' },
-  { name: 'Big Vegano', price: 55, vegan: true, src: './src/assets/devburger/big-vegano.jpg' },
+  { name: 'X-Salada', price: 30, vegan: false, src: '/assets/devburger/xsalada.jpeg' },
 
-  { name: 'X-Bacon', price: 34, vegan: false, src: './src/assets/devburger/xbacon.png' },
+  { name: 'Big Vegano', price: 55, vegan: true, src: './assets/devburger/big-vegano.jpg' },
 
-  { name: 'X-Bacon Egg', price: 39, vegan: false, src: './src/assets/devburger/bacon-egg.png' },
+  { name: 'X-Bacon', price: 34, vegan: false, src: '/assets/devburger/xbacon.png' },
 
-  { name: 'Monstruoso', price: 50, vegan: false, src: './src/assets/devburger/monstruoso.png' },
+  { name: 'X-Bacon Egg', price: 39, vegan: false, src: '/assets/devburger/bacon-egg.png' },
 
-  { name: 'X-Vegan', price: 45, vegan: true, src: './src/assets/devburger/xvegan.png' },
+  { name: 'Monstruoso', price: 50, vegan: false, src: '/assets/devburger/monstruoso.png' },
+
+  { name: 'X-Vegan', price: 45, vegan: true, src: '/assets/devburger/xvegan.png' },
 ]
 
 type Burger = {

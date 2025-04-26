@@ -35,7 +35,7 @@ export function Home() {
   return (
     <>
       <ContainerText>
-        <SorteioImage src="/src/assets/roleta.png" alt="Sorteador de números" className={girar ? "girando" : ""} />
+        <SorteioImage src="/assets/roleta.png" alt="Sorteador de números" className={girar ? "girando" : ""} />
         <Title>Sorteador de números</Title>
       </ContainerText>
 

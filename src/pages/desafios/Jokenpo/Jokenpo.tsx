@@ -55,13 +55,13 @@ function Jokenpo() {
 
       <ButtonsWrapper>
         <Button variant="pedra" onClick={() => handlePlayerChoice("Pedra")}>
-          <img src="./src/assets/pedra.png" alt="imagem pedra" />
+          <img src="/assets/pedra.png" alt="imagem pedra" />
         </Button>
         <Button variant="papel" onClick={() => handlePlayerChoice("Papel")}>
-          <img src="./src/assets/paper.png" alt="imagem papel" />
+          <img src="/assets/paper.png" alt="imagem papel" />
         </Button>
         <Button variant="tesoura" onClick={() => handlePlayerChoice("Tesoura")}>
-          <img src="./src/assets/tesoura.png" alt="imagem tesoura" />
+          <img src="/assets/tesoura.png" alt="imagem tesoura" />
         </Button>
       </ButtonsWrapper>
 

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import programmingImg from '../../assets/programming.svg';
+import programmingImg from '/assets/programming.svg';
 import { signInWithPopup } from 'firebase/auth';
 import { auth, provider } from '../../firebase';
 import {
